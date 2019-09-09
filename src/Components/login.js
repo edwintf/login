@@ -49,7 +49,7 @@ class login extends Component {
           </span>
         ) : (
           <span>
-          <h2>Login Firebase</h2>
+          <h2>Login Firebase Ed</h2>
           <StyledFirebaseAuth
             uiConfig={this.uiConfig}
             firebaseAuth={firebase.auth()}

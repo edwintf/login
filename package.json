@@ -15,7 +15,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-"homepage": "https://edwintf.github.io/login/"
+    "deploy": "gh-pages -d build",
+    "homepage": "https://edwintf.github.io/login/"
   },
   "eslintConfig": {
     "extends": "react-app"

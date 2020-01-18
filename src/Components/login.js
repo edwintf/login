@@ -3,6 +3,7 @@ import "./login.css"
 import firebase from "firebase"
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth"
 import data from "../config"
+
 firebase.initializeApp({
   apiKey: data.apiKey,
   authDomain:data.authDomain
